@@ -5,7 +5,7 @@ body {
 }
 
 .masthead {
-  background-color: lightsteelblue;
+  background-color: yellow;
   background-size: cover;
   background-repeat: no-repeat;
   height: 25em;
@@ -13,11 +13,11 @@ body {
 }
 
 h1 {
-  padding-top: 4.05em;
+  padding-top: .9em;
   font-family: 'Cabin Sketch';
   font-size: 5em;
   font-weight: 400;
-  color: white;
+/*  color: white;*/
 }
 
 h2 {
@@ -26,8 +26,10 @@ h2 {
   font-weight: 400;
   font-size: 2em;
   letter-spacing: .35em;
-  color: lightsteelblue;
+/*  color: lightsteelblue;*/
 }
+
+
 
 h3 {
   padding-top: 6em;
@@ -35,7 +37,7 @@ h3 {
   font-weight: 300;
   font-size: 1.5em;
   letter-spacing: .25em;
-  color: lightsteelblue;
+/*  color: lightsteelblue;*/
 }
 
 h4 {
@@ -43,5 +45,14 @@ h4 {
   padding-top: -1em;
   font-size: 1.5em;
   font-weight: 300;
-  color: lightsteelblue;
+/*  color: lightsteelblue;*/
+}
+
+h5 {
+  padding-top: 5em;
+  font-family: 'Wire One';
+  font-weight: 400;
+  font-size: 2em;
+  letter-spacing: .35em;
+/*  color: white;*/
 }
