@@ -203,13 +203,16 @@ h5 {
 }
 
 .small-pink {
+  margin-left: auto;
+  margin-right: auto;
   background-color: lightcoral;
   max-width: 40em;
-  padding-bottom: 0.5em;
+  margin-bottom: -0.1em;
 }
 
 .pink-h5 {
   padding-top: .25em;
+  padding-bottom: 0.25em;
   margin-bottom: -0.1em;
   margin-left: .5em;
   font-size: 3em;
@@ -217,7 +220,49 @@ h5 {
 }
 
 .port-bg {
+  padding-top: 5em;
   background-color: black;
-  height: 20em;
+  height: 50em;
+}
+
+#behance-api {
+  background-color: lightcoral;
+  border-radius: 50%;
+  height: 7em;
+  width: 7em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5em;
+}
+
+#behance-api:hover {
+  cursor: pointer;
+}
+
+#behance-img {
+  opacity: 0.5;
+}
+
+#behance-img:hover {
+  opacity: 0.9;
+}
+
+a{
+  text-decoration: none;
+}
+
+.bubble-title {
+  padding-top: 1.5em;
+  font-weight: 700;
+}
+
+.bubble-title:hover {
+  cursor: pointer;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), lightcoral, rgba(0, 0, 0, 0));
 }
 
