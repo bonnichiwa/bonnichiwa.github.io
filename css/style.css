@@ -101,12 +101,14 @@ h5 {
 .intro {
   padding-top: 25em;
 }
+
 .small-yellow {
-  background-color: yellow;
+  background-color: black;
   max-width: 25em;
   margin-left: 3em;
   margin-top: -25em;
   margin-right: 3em;
+  padding-bottom: 0.5em;
 }
 
 .big-yellow {
@@ -114,13 +116,14 @@ h5 {
   max-width: 85em;
   margin-left: 3em;
   margin-right: 3em;
-  margin-top: 3em;
   padding: 2em 2em;
 }
 
-.white-h5 {
+.yellow-h5 {
+  color: yellow;
   padding-top: .25em;
-  font-size: 1.5em;
+  font-size: 3em;
+  margin-bottom: -0.1em;
   font-weight: 700;
 }
 
@@ -131,3 +134,90 @@ h5 {
   letter-spacing: .1em;
   font-weight: 600;
 }
+
+/* Skillset */
+
+.skills {
+  padding-top: 5em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.skill-bg {
+  background-color: turquoise;
+  padding: 5em;
+/*  overflow: hidden;*/
+}
+
+.small-green {
+  background-color: black;
+  max-width: 25em;
+  padding-bottom: .5em;
+}
+
+.green-h5 {
+  color: turquoise;
+  padding-top: .25em;
+  font-size: 3em;
+  font-weight: 700;
+  margin-bottom: -0.1em;
+}
+
+#ruby {
+  padding-right: 1em;
+}
+
+#jquery {
+  padding-right: 1.75em;
+}
+
+#ruby:hover {
+  content: url('../images/ruby2.png');
+}
+
+#html:hover {
+  content: url('../images/html2.png');
+}
+
+#js:hover {
+  content: url('../images/javascript2.png');
+}
+
+#css:hover {
+  content: url('../images/css2.png');
+}
+
+#jquery:hover {
+  content: url('../images/jquery3.png');
+}
+
+#github:hover {
+  content: url('../images/githublogo2.png');
+}
+
+/* Portfolio */
+
+.portfolio {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.small-pink {
+  background-color: lightcoral;
+  max-width: 40em;
+  padding-bottom: 0.5em;
+}
+
+.pink-h5 {
+  padding-top: .25em;
+  margin-bottom: -0.1em;
+  margin-left: .5em;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+.port-bg {
+  background-color: black;
+  height: 20em;
+}
+
