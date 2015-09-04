@@ -21,20 +21,23 @@ body {
     background: slateblue;
 }
 
+/* Header section */
+
 .masthead {
-/*  background-color: yellow;*/
   background-size: cover;
   background-repeat: no-repeat;
   height: 25em;
   margin-top: -4em;
   padding-top: 8em;
-  padding-bottom: 20em;
+  padding-bottom: 30em;
 }
 
 h1 {
   font-family: 'Wire One';
   font-size: 10em;
   font-weight: 400;
+  margin-top: -.05em;
+  margin-bottom: .3em;
 }
 
 #circle {
@@ -42,6 +45,10 @@ h1 {
   height: .75em;
   border-radius: 50%;
   display: inline-block;
+}
+
+#circle:hover {
+  cursor: pointer;
 }
 
 h2 {
@@ -66,15 +73,12 @@ h3 {
   font-weight: 300;
   font-size: 1.5em;
   letter-spacing: .25em;
-/*  color: lightsteelblue;*/
 }
 
 h4 {
   font-family: 'Wire One';
-
   font-size: 1.5em;
   font-weight: 300;
-/*  color: lightsteelblue;*/
 }
 
 h5 {
@@ -82,25 +86,48 @@ h5 {
   font-weight: 400;
   font-size: 2em;
   letter-spacing: .35em;
-/*  color: white;*/
 }
 
-.full-black {
+/* About me section */
+
+/*.full-black {
   background-color: black;
-  padding-top: .5em;
+  padding-top: 5em;
   margin-left: auto;
   margin-right: auto;
-  height: 20em;
-}
+  max-height: 100em;
+}*/
 
-.small-white {
+.intro {
+  padding-top: 25em;
+}
+.small-yellow {
   background-color: yellow;
   max-width: 25em;
   margin-left: 3em;
   margin-top: -25em;
+  margin-right: 3em;
+}
+
+.big-yellow {
+  background-color: yellow;
+  max-width: 85em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-top: 3em;
+  padding: 2em 2em;
 }
 
 .white-h5 {
   padding-top: .25em;
   font-size: 1.5em;
+  font-weight: 700;
+}
+
+.about-me {
+  text-align: left;
+  font-family: 'Wire One';
+  font-size: 1.35em;
+  letter-spacing: .1em;
+  font-weight: 600;
 }
