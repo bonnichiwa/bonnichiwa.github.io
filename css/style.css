@@ -14,7 +14,7 @@ body {
 }
 
 .color3{
-    background: lightcoral;
+    background: coral;
 }
 
 .color4{
@@ -204,7 +204,7 @@ h5 {
 .small-pink {
   margin-left: auto;
   margin-right: auto;
-  background-color: slateblue;
+  background-color: coral;
   max-width: 40em;
   margin-bottom: -0.1em;
 }
@@ -219,49 +219,51 @@ h5 {
 }
 
 .port-bg {
-  padding-top: 5em;
+  padding-top: 2em;
   background-color: black;
-  height: 250em;
+  height: 185em;
 }
 
 #pink-bubble {
-  background-color: slateblue;
+  background-color: coral;
   border-radius: 50%;
-  height: 7em;
-  width: 7em;
+  height: 8em;
+  width: 8em;
+  margin-top: 2em;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 5em;
+  margin-bottom: 2em;
 }
 
-.port-img:hover {
+.port-img:hover, .port-img-2:hover, .port-img-3:hover, .port-img-4:hover {
   cursor: pointer;
+  opacity: 0.9;
 }
 
-.port-img{
+.port-img, .port-img-2, .port-img-3, .port-img-4 {
   opacity: 0.5;
 }
 
-.port-img:hover {
-  opacity: 0.9;
-}
 
 .under-img {
   margin-top: -0.25em;
 }
 
-.tags-all {
+.tags-all, .tags-all-2, .tags-all-3, .tags-all-4 {
   display: none;
 }
 
 .tags-title {
   font-family: 'Wire One';
   font-size: 1.5em;
-  color: slateblue;
+  color: coral;
+  max-width: 20em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .tags-banner {
-  background-color: slateblue;
+  background-color: coral;
   max-width: 30em;
   letter-spacing: .05em;
   margin-left: auto;
@@ -279,17 +281,41 @@ a{
 }
 
 .bubble-title {
-  padding-top: 1.5em;
-  font-weight: 700;
+  padding-top: 1.8em;
+  font-weight: 300;
 }
 
-.bubble-title:hover {
-  cursor: pointer;
-}
 
 hr {
   border: 0;
   height: 3px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), slateblue, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), coral, rgba(0, 0, 0, 0));
+}
+
+/* Footer */
+
+.footer {
+  margin-top: -10em;
+  background-color: slateblue;
+  height: 15em;
+}
+
+.connect-div {
+  background-color: black;
+  padding-bottom: -15em;
+}
+
+.connect {
+  color: slateblue;
+  font-weight: 600;
+  margin-bottom: -0.5em;
+}
+
+#connect-git {
+  display: inline-block;
+}
+
+#git-connect-img {
+  margin-top: 5em;
 }
 
