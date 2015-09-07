@@ -199,13 +199,12 @@ h5 {
 
 .portfolio {
   padding-top: 5em;
-  padding-bottom: 5em;
 }
 
 .small-pink {
   margin-left: auto;
   margin-right: auto;
-  background-color: lightcoral;
+  background-color: slateblue;
   max-width: 40em;
   margin-bottom: -0.1em;
 }
@@ -222,11 +221,11 @@ h5 {
 .port-bg {
   padding-top: 5em;
   background-color: black;
-  height: 50em;
+  height: 250em;
 }
 
-#behance-api {
-  background-color: lightcoral;
+#pink-bubble {
+  background-color: slateblue;
   border-radius: 50%;
   height: 7em;
   width: 7em;
@@ -235,20 +234,48 @@ h5 {
   margin-bottom: 5em;
 }
 
-#behance-api:hover {
+.port-img:hover {
   cursor: pointer;
 }
 
-#behance-img {
+.port-img{
   opacity: 0.5;
 }
 
-#behance-img:hover {
+.port-img:hover {
   opacity: 0.9;
+}
+
+.under-img {
+  margin-top: -0.25em;
+}
+
+.tags-all {
+  display: none;
+}
+
+.tags-title {
+  font-family: 'Wire One';
+  font-size: 1.5em;
+  color: slateblue;
+}
+
+.tags-banner {
+  background-color: slateblue;
+  max-width: 30em;
+  letter-spacing: .05em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tags {
+  font-family: 'Wire One';
+  font-size: 1.5em;
 }
 
 a{
   text-decoration: none;
+  color: black;
 }
 
 .bubble-title {
@@ -262,7 +289,7 @@ a{
 
 hr {
   border: 0;
-  height: 1px;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), lightcoral, rgba(0, 0, 0, 0));
+  height: 3px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), slateblue, rgba(0, 0, 0, 0));
 }
 

@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+  $('.port-img-1').mouseenter(function(){
+    $('.tags-all-1').slideDown('slow');
+    })
+  .mouseleave(function(){
+    $('.tags-all-1').slideUp('slow');
+  })
+
   function changeColor(element, curNumber){
     curNumber++;
 
