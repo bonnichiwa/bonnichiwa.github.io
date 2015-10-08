@@ -27,9 +27,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 25em;
-  margin-top: -4em;
   padding-top: 8em;
-  padding-bottom: 30em;
+  padding-bottom: 45em;
 }
 
 h1 {
@@ -81,6 +80,14 @@ h4 {
   font-weight: 300;
 }
 
+.white-h4 {
+  padding-top: 0.4em;
+  color: coral;
+  font-size: 2em;
+  letter-spacing: 0.35em;
+  font-weight: 600;
+}
+
 h5 {
   font-family: 'Wire One';
   font-weight: 400;
@@ -113,7 +120,6 @@ h5 {
 
 .big-yellow {
   background-color: yellow;
-  max-width: 85em;
   margin-left: 3em;
   margin-right: 3em;
   padding: 2em 2em;
@@ -167,8 +173,12 @@ h5 {
   padding-right: 1em;
 }
 
-#jquery {
-  padding-right: 1.75em;
+#angular {
+  padding-right: 1em;
+}
+
+#angular:hover {
+  content: url('../images/angularjs-logo.png');
 }
 
 #ruby:hover {
@@ -199,14 +209,15 @@ h5 {
 
 .portfolio {
   padding-top: 5em;
+  padding-bottom: 6em;
 }
 
 .small-pink {
   margin-left: auto;
   margin-right: auto;
-  background-color: coral;
-  max-width: 40em;
-  margin-bottom: -0.1em;
+  background-color: black;
+  max-width: 50em;
+  margin-bottom: -3em;
 }
 
 .pink-h5 {
@@ -216,41 +227,39 @@ h5 {
   margin-left: .5em;
   font-size: 3em;
   font-weight: 700;
+  color: coral;
+
+}
+
+.black-background-h4 {
+  background-color: black;
+  width: 500px;
+  margin-left: 2em;
+  height: 3em;
 }
 
 .port-bg {
-  padding-top: 2em;
-  background-color: black;
-  height: 185em;
-}
-
-#pink-bubble {
+  padding: 5em;
+  margin: 3em;
   background-color: coral;
-  border-radius: 50%;
-  height: 8em;
-  width: 8em;
-  margin-top: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 2em;
 }
 
-.port-img:hover, .port-img-2:hover, .port-img-3:hover, .port-img-4:hover {
-  cursor: pointer;
-  opacity: 0.9;
+.col-sm-6 {
+  opacity: 0.85;
+}
+
+.col-sm-6:hover {
+  opacity: 1;
 }
 
 .port-img, .port-img-2, .port-img-3, .port-img-4 {
-  opacity: 0.5;
+  border: 10px solid black;
 }
 
-
-.under-img {
-  margin-top: -0.25em;
-}
 
 .tags-all, .tags-all-2, .tags-all-3, .tags-all-4 {
   display: none;
+  margin-top: -1em;
 }
 
 .tags-title {
@@ -260,11 +269,12 @@ h5 {
   max-width: 20em;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 1em;
 }
 
 .tags-banner {
-  background-color: coral;
-  max-width: 30em;
+  background-color: black;
+  max-width: 500px;
   letter-spacing: .05em;
   margin-left: auto;
   margin-right: auto;
@@ -273,6 +283,10 @@ h5 {
 .tags {
   font-family: 'Wire One';
   font-size: 1.5em;
+  font-weight: 700;
+  color: coral;
+  padding-top: 1em;
+  letter-spacing: 0.15em;
 }
 
 a{
@@ -288,16 +302,16 @@ a{
 
 hr {
   border: 0;
-  height: 3px;
+  height: 1px;
+  padding-top: 0.5em;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), coral, rgba(0, 0, 0, 0));
 }
 
 /* Footer */
 
 .footer {
-  margin-top: -10em;
   background-color: slateblue;
-  height: 15em;
+  height: 45em;
 }
 
 .connect-div {
@@ -311,11 +325,53 @@ hr {
   margin-bottom: -0.5em;
 }
 
-#connect-git {
+#connect-git, #connect-behance, #connect-linked {
   display: inline-block;
 }
 
-#git-connect-img {
+#git-connect-img, #behance-connect-img, #linked-connect-img {
   margin-top: 5em;
+  margin-bottom: 3em;
+  margin-right: 1em;
 }
+
+#black {
+  background-color: black;
+  max-width: 16.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  height: 2em;
+}
+
+.form {
+  font-family: 'Wire One';
+}
+
+.form input, .form textarea {
+  border: 2px solid lightgray;
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+  width: 14em;
+  font-family: 'Wire One';
+  font-size: 1.5em;
+  letter-spacing: 0.2em;
+  font-weight: 700;
+}
+
+.form-heading {
+  font-size: 1.55em;
+}
+
+#submit-button {
+  border: none;
+  color: slateblue;
+  width: 5em;
+  background-color: black;
+}
+
+#submit-button:hover {
+  cursor: pointer;
+}
+
 

@@ -2,8 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
+
   <link href='https://fonts.googleapis.com/css?family=Advent+Pro:400,300,700|Fredericka+the+Great|Cabin+Sketch:400,700|Wire+One' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
   <script src="js/app.js"></script>
   <title>Bonnie Pham Portfolio</title>
@@ -56,9 +59,12 @@
       <img id="js" src="images/javascript.png" width="150">
       <img id="css" src="images/css.png" width="150">
       <img id="jquery" src="images/jquery.png" width="150">
+      <img id="angular" src="images/angularjs-logo2.png" width="150">
       <img id="github" src="images/githublogo.png" width="140">
     </div>
   </section>
+
+
 
   <section class="portfolio">
     <div class="small-pink">
@@ -66,65 +72,82 @@
         Completed Projects:
       </h5>
     </div>
-    <div class="port-bg">
-      
-      <div id="pink-bubble">
-        <h4 class="bubble-title">Behance + Google API Hack</h4>
-      </div>
-      <a target="_blank" href="http://bonnichiwa.github.io/behance-api/index.html">
-        <img class="port-img" src="images/behance-api.png" width="700">
-      </a>
-      <hr class="under-img">
-      <div class="tags-all">
-        <div class="tags-banner">
-          <p class="tags">HTML, CSS, AJAX, Json, Javascript, jQuery</p>
-        </div>
-        <p class="tags-title">This project allows users to locate creatives based on either their current location or enter a city of their choice. Their search is then customizable by creative field. All creatives' profiles have been provided by Behance.</p>
-      </div>
+      <!-- Bootstrap grid containter -->
+      <div class="port-bg">
+      <div class="container">
+        <div class="row">
 
-      
-      <div id="pink-bubble">
-        <h4 class="bubble-title">Shopping List App</h4>
-      </div>
-      <a target="_blank" href="http://bonnichiwa.github.io/shopping-list-app/main.html">
-        <img class="port-img-2" src="images/shopping-list.png" width="750">
-      </a>
-      <hr class="under-img">
-      <div class="tags-all-2">
-        <div class="tags-banner">
-          <p class="tags">HTML, CSS, Javascript, jQuery</p>
-        </div>
-        <p class="tags-title">A fully customizable shopping list. Users can add items, delete items, highlight/cross off items, search through items and clear a list of items.</p>
-      </div>
+          <div class="col-sm-6"> 
+          <div class="black-background-h4">     
+            <h4 class="white-h4">Behance + Google API Hack</h4>
+          </div>
+            <a target="_blank" href="http://bonnichiwa.github.io/behance-api/index.html">
+              <img class="port-img" src="images/behance-api.png" width="500">
+            </a>
 
-      <div id="pink-bubble">
-        <h4 class="bubble-title">Pokemon Quiz Game</h4>
-      </div>
-      <a target="_blank" href="http://bonnichiwa.github.io/interactive-game-app/main.html">
-        <img class="port-img-3" src="images/pokemon.png" width="750">
-      </a>
-      <hr class="under-img">
-      <div class="tags-all-3">
-        <div class="tags-banner">
-          <p class="tags">HTML, CSS, Javascript, jQuery</p>
+            <div class="tags-all">
+              <div class="tags-banner">
+                <p class="tags">HTML, CSS, AJAX, Json, Javascript, jQuery</p>
+                <hr>
+                <p class="tags-title">This project allows users to locate creatives based on either their current location or enter a city of their choice. Their search is then customizable by creative field. All creatives' profiles have been provided by Behance.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6"> 
+          <div class="black-background-h4">          
+            <h4 class="white-h4">Shopping List App</h4>
+          </div>
+            <a target="_blank" href="http://bonnichiwa.github.io/shopping-list-app/main.html">
+              <img class="port-img-2" src="images/shopping-list.png" width="500">
+            </a>
+
+            <div class="tags-all-2">
+              <div class="tags-banner">
+                <p class="tags">HTML, CSS, Javascript, jQuery</p>
+                <hr>
+                <p class="tags-title">A fully customizable shopping list. Users can add items, delete items, highlight/cross off items, search through items and clear a list of items.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
-        <p class="tags-title">The theme of Pokemon was chosen for this interactive game. Players will go through a series of challenging questions to test their true knowledge of the popular TV/game series. They will then be notified of how likely they are at becoming a Pokemon master.</p>
-      </div>
-   
+
+        <div class="row">
+
+          <div class="col-sm-6">
+          <div class="black-background-h4">      
+            <h4 class="white-h4">Pokemon Quiz Game</h4>
+          </div>
+            <a target="_blank" href="http://bonnichiwa.github.io/interactive-game-app/main.html">
+              <img class="port-img-3" src="images/pokemon.png" width="500">
+            </a>
+            <div class="tags-all-3">
+              <div class="tags-banner">
+                <p class="tags">HTML, CSS, Javascript, jQuery</p>
+                <hr>
+                <p class="tags-title">The theme of Pokemon was chosen for this interactive game. Players will go through a series of challenging questions to test their true knowledge of the popular TV/game series. They will then be notified of how likely they are at becoming a Pokemon master.</p>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="col-sm-6">
+          <div class="black-background-h4">      
+            <h4 class="white-h4">Hot or Cold Guessing Game</h4>
+          </div>
       
-        <div id="pink-bubble">
-          <h4 class="bubble-title">Hot or Cold Guessing Game</h4>
+            <a target="_blank" href="http://bonnichiwa.github.io/hot-cold-game/#">
+              <img class="port-img-4" src="images/hot-cold.png" width="500">
+            </a>
+            <div class="tags-all-4">
+              <div class="tags-banner">
+                <p class="tags">HTML, CSS, Javascript, jQuery</p>
+              <hr>
+              <p class="tags-title">The classic, hot or cold game - in interactive game mode. Players will guess a number between 1 to 100, and be notified of how hot/cold they are from the number. The game will log the past guesses of the player, and terminates when the number has been successfully guessed.</p>
+            </div>  
+          </div> 
         </div>
-      
-      <a target="_blank" href="http://bonnichiwa.github.io/hot-cold-game/#">
-        <img class="port-img-4" src="images/hot-cold.png" width="750">
-      </a>
-      <hr class="under-img">
-      <div class="tags-all-4">
-        <div class="tags-banner">
-          <p class="tags">HTML, CSS, Javascript, jQuery</p>
-        </div>
-        <p class="tags-title">The classic, hot or cold game - in interactive game mode. Players will guess a number between 1 to 100, and be notified of how hot/cold they are from the number. The game will log the past guesses of the player, and terminates when the number has been successfully guessed.</p>
       </div>
       
 
@@ -136,7 +159,6 @@
         </div>
       </a> -->
 
-    </div>
   </section>
 
   <!-- Footer section -->
@@ -145,6 +167,22 @@
       <h5 class="connect">Connect with me through:</h5>
     </div>
     <a target="_blank" id="connect-git" href="https://github.com/bonnichiwa"><img src="images/gitwhite.png" id="git-connect-img" width="50"></a>
+
+    <a target="_blank" id="connect-linked" href="https://ca.linkedin.com/in/bonniepham"><img src="images/linked-in.png" id="linked-connect-img" width="50"></a>
+
+    <a target="_blank" id="connect-behance" href="https://behance.net/bonniepham"><img src="images/behance-logo.png" id="behance-connect-img" width="50"></a>
+
+    <div id="black">
+    <h5 class="connect form-heading"> Leave a Message! </h5>
+    </div>
+
+    <form class="form" action="//formspree.io/bonnie.pham@ryerson.ca"
+      method="POST">
+      <input type="text" placeholder="Name" name="name"><br>
+      <input type="email" placeholder="E-mail" name="_replyto"><br>
+      <textarea rows="5" placeholder="Message" name="message"></textarea><br>
+      <input id="submit-button" type="submit" value="Send">
+    </form>
   </section>
 
 </body>
