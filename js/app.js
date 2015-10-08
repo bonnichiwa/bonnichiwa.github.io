@@ -28,6 +28,34 @@ $(document).ready(function() {
     $('.tags-all-4').slideUp('slow');
   })
 
+  $('.port-img-5').mouseenter(function(){
+    $('.tags-all-5').slideDown('slow');
+    })
+  .mouseleave(function(){
+    $('.tags-all-5').slideUp('slow');
+  })
+
+  $('.port-img-6').mouseenter(function(){
+    $('.tags-all-6').slideDown('slow');
+    })
+  .mouseleave(function(){
+    $('.tags-all-6').slideUp('slow');
+  })
+
+  $('.port-img-7').mouseenter(function(){
+    $('.tags-all-7').slideDown('slow');
+    })
+  .mouseleave(function(){
+    $('.tags-all-7').slideUp('slow');
+  })
+
+  $('.port-img-8').mouseenter(function(){
+    $('.tags-all-8').slideDown('slow');
+    })
+  .mouseleave(function(){
+    $('.tags-all-8').slideUp('slow');
+  })
+
 
   function changeColor(element, curNumber){
     curNumber++;
