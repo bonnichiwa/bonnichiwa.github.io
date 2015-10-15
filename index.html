@@ -17,10 +17,18 @@
 
   <div class="nav-bar-bg">
     <ul class="nav-bar">
-      <li><a href="#one">Home</a></li>
-      <li><a href="#two">About</a></li>
-      <li><a href="#three">Portfolio</a></li>
-      <li><a href="#four">Contact</a></li>
+      <div class="black-nav">
+        <li><a href="#one">Home</a></li>
+      </div>
+      <div class="black-nav">
+        <li><a href="#two">About</a></li>
+      </div>
+      <div class="black-nav">
+        <li><a href="#three">Portfolio</a></li>
+      </div>
+      <div class="black-nav">
+        <li><a href="#four">Contact</a></li>
+      </div>
     </ul>
   </div>
 
@@ -46,15 +54,26 @@
       </h5>
     </div>
     <div class="big-yellow">
-      <p class="about-me">
-        Hello! I'm Bonnie, an aspiring Full Stack Web Developer. I love long walks on the beach, great conversations, and corgis. Place me in a coffee shop with a latte and you'll have me working away until the sun sets.<br>
-        <br>
-        I love everything that involves great design, and as a designer myself that is what I always strive for in all my projects.<br>
-        <br>
-        Over the past few months I have attended a web development bootcamp, focusing on backend languages and also an online web development course, focusing on frontend principles. Below you can view my completed projects, which is only a start!<br>
-        <br>
-        I cannot wait to start my journey as a web developer and accomplish even more amazing things. Please check back often for updates, cheers!<br>
-      </p>
+      <div class="container">
+        <div class="row">
+        <div class="col-sm-6"> 
+          <p class="about-me">
+          Hello! I'm Bonnie, an aspiring Full Stack Web Developer. I love long walks on the beach, great conversations, and corgis. Place me in a coffee shop with a latte and you'll have me working away until the sun sets.<br>
+          <br>
+          I love everything that involves great design, and as a designer myself that is what I always strive for in all my projects.<br>
+          <br>
+          </p>
+        </div>
+        <div class="col-sm-6"> 
+          <p class="about-me">
+          Over the past few months I have attended a web development bootcamp, focusing on backend languages and also an online web development course, focusing on frontend principles. Below you can view my completed projects, which is only a start!<br>
+          <br>
+          I cannot wait to start my journey as a web developer and accomplish even more amazing things. Please check back often for updates, cheers!<br>
+          </p>
+        </div>
+      </div>
+    </div>
+      
     </div>
   </section>
 
@@ -83,7 +102,7 @@
         Completed Projects:
       </h5>
     </div>
-      <!-- Bootstrap grid containter -->
+      <!-- Bootstrap grid container -->
       <div class="port-bg">
       <div class="container">
         <div class="row">
