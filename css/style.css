@@ -8,10 +8,9 @@ img {
   max-width: 100%;
 }
 
-
 body {
   text-align: center;
-  margin: 0 0;
+  font-family: 'Wire One';
 }
 
 /* Changing colours circle */
@@ -34,6 +33,22 @@ body {
 
 /* Header section */
 
+.nav-bar-bg {
+  background-color: black;
+  height: 2.5em;
+}
+
+.nav-bar li, .nav-bar a {
+  padding-top: 0.1em;
+  list-style-type: none;
+  display: inline-block;
+  padding-right: 1em;
+  font-size: 1.2em;
+  letter-spacing: .35em;
+  color: white;
+  font-weight: 400;
+}
+
 .masthead {
   background-size: cover;
   background-repeat: no-repeat;
@@ -43,7 +58,6 @@ body {
 }
 
 h1 {
-  font-family: 'Wire One';
   font-size: 13em;
   font-weight: 400;
   margin-top: -.05em;
@@ -62,7 +76,6 @@ h1 {
 }
 
 h2 {
-  font-family: 'Wire One';
   font-weight: 400;
   font-size: 2em;
   letter-spacing: .35em;
@@ -79,14 +92,12 @@ h2 {
 
 h3 {
   padding-top: 4em;
-  font-family: 'Wire One';
   font-weight: 300;
   font-size: 1.5em;
   letter-spacing: .25em;
 }
 
 h4 {
-  font-family: 'Wire One';
   font-size: 1.5em;
   font-weight: 300;
 }
@@ -100,7 +111,6 @@ h4 {
 }
 
 h5 {
-  font-family: 'Wire One';
   font-weight: 400;
   font-size: 2em;
   letter-spacing: .35em;
@@ -146,7 +156,6 @@ h5 {
 
 .about-me {
   text-align: left;
-  font-family: 'Wire One';
   font-size: 1.35em;
   letter-spacing: .1em;
   font-weight: 600;
@@ -274,7 +283,6 @@ h5 {
 }
 
 .tags-title {
-  font-family: 'Wire One';
   font-size: 1.5em;
   color: coral;
   max-width: 20em;
@@ -292,7 +300,6 @@ h5 {
 }
 
 .tags {
-  font-family: 'Wire One';
   font-size: 1.5em;
   font-weight: 700;
   color: coral;
@@ -356,7 +363,6 @@ hr {
 }
 
 .form {
-  font-family: 'Wire One';
 }
 
 .form input, .form textarea {
@@ -364,7 +370,6 @@ hr {
   margin-bottom: 0.5em;
   padding: 0.5em;
   width: 14em;
-  font-family: 'Wire One';
   font-size: 1.5em;
   letter-spacing: 0.2em;
   font-weight: 700;
