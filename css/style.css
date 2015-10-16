@@ -29,20 +29,27 @@ body {
 
 .black-nav {
   background-color: black;
-  max-width: 9em;
-  margin-bottom: 1em;
+  max-width: 7.5em;
+  margin-bottom: 0.5em;
   text-align: left;
   padding-left: 1em;
   padding-bottom: 0.15em;
 }
 
-.nav-bar-bg {
-  padding-top: 2em;
+#nav-bar-bg {
   position: fixed;
+  padding-top: 0.5em;
+  margin-left: -9.5em;
+  transition: 1s;
+}
+
+#nav-bar-bg:hover {
+  transition: 1s;
+  margin-left: -3em;
 }
 
 .nav-bar li, .nav-bar a {
-  padding-top: 0.1em;
+  padding-top: 0.05em;
   list-style-type: none;
   display: inline-block;
   padding-right: 1em;
@@ -50,6 +57,7 @@ body {
   letter-spacing: .35em;
   color: white;
   font-weight: 400;
+  font-size: 1.05em;
 }
 
 .masthead {

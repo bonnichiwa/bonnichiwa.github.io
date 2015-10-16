@@ -78,7 +78,6 @@ $(document).ready(function() {
     if(curNumber > 4){
         curNumber = 1;
     }
-    console.log(curNumber);
     element.addClass('color' + curNumber, 500);
     // So previous classes get removed.
     element.attr('class', 'color' + curNumber);
