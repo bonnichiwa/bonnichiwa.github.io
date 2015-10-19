@@ -1,4 +1,14 @@
-angular.module('portfolioApp', []);
+var app = angular.module('portfolioApp', []);
+
+app.directive('portThumbnail', function() {
+  return {
+    restrict: 'E',
+    transclude: true,
+    templateUrl: 'port-thumbnail.html',
+    replace: true
+  }
+});
+
 
 new WOW().init();
 
@@ -18,25 +28,6 @@ $(document).ready(function() {
       }
     }
   })
-
-  $('.port-img').mouseenter(function(){
-    $('.col-sm-4').addClass('animated bounce');
-    })
-  .mouseleave(function(){
-    $('.col-sm-4').removeClass('animated bounce');
-  })
-
-  // $('.nav-square').mouseenter(function(){
-  //   $('#nav-bar-bg').css("margin-left", "-3.25em");
-  //   $('#nav-bar-bg').removeClass('animated slideOutLeft');
-  //   $('#nav-bar-bg').addClass('animated slideInLeft');
-  //   })
-  // .mouseleave(function(){
-  //   $('#nav-bar-bg').css("margin-left", "-11em");
-  //   $('#nav-bar-bg').removeClass('animated slideInLeft');
-  //   $('#nav-bar-bg').addClass('animated slideOutLeft');
-  // })
-
 
   function changeColor(element, curNumber){
     curNumber++;
