@@ -106,26 +106,35 @@ body {
 
 /* Header section */
 
+.nav-square {
+  width: 80px;
+  height: 50px;
+  background-color: black;
+  position: fixed;
+  padding-left: 0.25em;
+}
+
+.nav-square:hover > #nav-bar-bg {
+  margin-left: -3.25em;
+  transition: 1s;
+}
+
+#nav-bar-bg {
+  padding-top: 1em;
+  margin-left: -11em;
+  transition: 1s;
+}
+
 .black-nav {
   background-color: black;
   max-width: 7.5em;
   margin-bottom: 0.5em;
   text-align: left;
-  padding-left: 1em;
+  padding-left: 0.35em;
   padding-bottom: 0.15em;
 }
 
-#nav-bar-bg {
-  position: fixed;
-  padding-top: 0.5em;
-  margin-left: -9.5em;
-  transition: 1s;
-}
 
-#nav-bar-bg:hover {
-  transition: 1s;
-  margin-left: -3em;
-}
 
 .nav-bar li, .nav-bar a {
   padding-top: 0.05em;

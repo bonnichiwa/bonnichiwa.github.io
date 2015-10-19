@@ -1,13 +1,6 @@
-angular.module('portfolioApp', [])
+angular.module('portfolioApp', []);
 
-.directive('portThumbnail', function() {
-  return {
-    restrict: 'E',
-    transclude: true,
-    template: '<h1>' + 'Hello Bitches' + '</h1>',
-    replace: true
-  }
-});
+new WOW().init();
 
 $(document).ready(function() {
 
@@ -27,61 +20,11 @@ $(document).ready(function() {
   })
 
   $('.port-img').mouseenter(function(){
-    $('.tags-all').slideDown('slow');
+    $('.col-sm-4').addClass('animated bounce');
     })
   .mouseleave(function(){
-    $('.tags-all').slideUp('slow');
+    $('.col-sm-4').addClass('animated bounce');
   })
-
-  $('.port-img-2').mouseenter(function(){
-    $('.tags-all-2').slideDown('slow');
-    })
-  .mouseleave(function(){
-    $('.tags-all-2').slideUp('slow');
-  })
-
-  $('.port-img-3').mouseenter(function(){
-    $('.tags-all-3').slideDown('slow');
-    })
-  .mouseleave(function(){
-    $('.tags-all-3').slideUp('slow');
-  })
-
-  $('.port-img-4').mouseenter(function(){
-    $('.tags-all-4').slideDown('slow');
-    })
-  .mouseleave(function(){
-    $('.tags-all-4').slideUp('slow');
-  })
-
-  $('.port-img-5').mouseenter(function(){
-    $('.tags-all-5').slideDown('slow');
-    })
-  .mouseleave(function(){
-    $('.tags-all-5').slideUp('slow');
-  })
-
-  $('.port-img-6').mouseenter(function(){
-    $('.tags-all-6').slideDown('slow');
-    })
-  .mouseleave(function(){
-    $('.tags-all-6').slideUp('slow');
-  })
-
-  $('.port-img-7').mouseenter(function(){
-    $('.tags-all-7').slideDown('slow');
-    })
-  .mouseleave(function(){
-    $('.tags-all-7').slideUp('slow');
-  })
-
-  $('.port-img-8').mouseenter(function(){
-    $('.tags-all-8').slideDown('slow');
-    })
-  .mouseleave(function(){
-    $('.tags-all-8').slideUp('slow');
-  })
-
 
   function changeColor(element, curNumber){
     curNumber++;
