@@ -1,23 +1,77 @@
 @media screen and (min-width: 400px) {
   #ruby, #html, #js, #css, #jquery, #angular, #github {
-    width: 60px;
+    width: 80px;
+  }
+  #git-connect-img, #linked-connect-img, #behance-connect-img {
+    width: 30px;
+  }
+  img {
+    width: 300px;
+  }
+  .black-background-h4, .tags-banner {
+    width: 300px;
+  }
+  .about-me-para {
+    margin-left: 0.25em;
   }
 }
 
 @media screen and (min-width: 600px) {
-  #ruby, #html, #js, #css, #jquery, #angular, #github {
+  #ruby, #html, #js, #css, #jquery, #angular, #github  {
     width: 100px;
   }
-}
-
-@media screen and (min-width: 940px) {
-  #ruby, #html, #js, #css, #jquery, #angular, #github {
-    width: 130px;
+  #git-connect-img, #linked-connect-img, #behance-connect-img {
+    width: 40px;
+  }
+  img {
+    width: 400px;
+  }
+  .black-background-h4, .tags-banner {
+    width: 400px;
   }
 }
 
-img {
-  max-width: 100%;
+@media screen and (min-width: 768px) {
+  #ruby, #html, #js, #css, #jquery, #angular, #github  {
+    width: 130px;
+  }
+  #git-connect-img, #linked-connect-img, #behance-connect-img {
+    width: 50px;
+  }
+  img {
+    width: 175px;
+  }
+  .black-background-h4, .tags-banner {
+    width: 175px;
+  }
+  .white-h4, .tags, .tags-title{
+    font-size: 1em;
+  }
+  .about-me-para {
+    margin-left: 5em;
+  }
+}
+
+@media screen and (min-width: 850px) {
+  img {
+    width: 225px;
+  }
+  .black-background-h4, .tags-banner {
+    width: 225px;
+  }
+}
+
+
+@media screen and (min-width: 1065px) {
+  img {
+    width: 300px;
+  }
+  .black-background-h4, .tags-banner {
+    width: 300px;
+  }
+  .white-h4, .tags, .tags-title{
+    font-size: 1.5em;
+  }
 }
 
 body {
@@ -87,7 +141,7 @@ body {
   background-repeat: no-repeat;
   height: 25em;
   padding-top: 8em;
-  padding-bottom: 50em;
+  padding-bottom: 60em;
 }
 
 h1 {
@@ -140,7 +194,6 @@ h4 {
 .white-h4 {
   padding-top: 0.4em;
   color: coral;
-  font-size: 2em;
   letter-spacing: 0.35em;
   font-weight: 600;
 }
@@ -170,7 +223,7 @@ h5 {
   background-color: yellow;
   margin-left: 3em;
   margin-right: 3em;
-  padding-top: 2em;
+  padding: 2em;
 }
 
 .yellow-h5 {
@@ -280,14 +333,15 @@ h5 {
 
 .black-background-h4 {
   background-color: black;
-  width: 500px;
-  margin-left: 2em;
-  height: 3em;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 2.5em;
 }
 
 .port-bg {
-  padding: 5em;
-  margin: 3em;
+  padding: 2em;
+  margin: 3em 2em;
   background-color: coral;
 }
 
@@ -299,18 +353,11 @@ h5 {
   opacity: 1;
 }
 
-.port-img, .port-img-2, .port-img-3, .port-img-4, .port-img-5, .port-img-6, .port-img-7, .port-img-8 {
+.port-img {
   border: 10px solid black;
 }
 
-
-.tags-all, .tags-all-2, .tags-all-3, .tags-all-4, .tags-all-5, .tags-all-6, .tags-all-7, .tags-all-8 {
-  display: none;
-  margin-top: -1em;
-}
-
 .tags-title {
-  font-size: 1.5em;
   color: coral;
   max-width: 20em;
   margin-left: auto;
@@ -327,14 +374,13 @@ h5 {
 }
 
 .tags {
-  font-size: 1.5em;
   font-weight: 700;
   color: coral;
   padding-top: 1em;
   letter-spacing: 0.15em;
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -387,9 +433,6 @@ hr {
   margin-right: auto;
   margin-bottom: 2em;
   height: 2em;
-}
-
-.form {
 }
 
 .form input, .form textarea {
