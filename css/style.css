@@ -8,6 +8,9 @@
   img {
     width: 300px;
   }
+  .contact-bg {
+    width: 100%;
+  }
   .black-background-h4, .tags-banner {
     width: 300px;
   }
@@ -29,6 +32,9 @@
   img {
     width: 400px;
   }
+  .contact-bg {
+    width: 100%;
+  }
   .black-background-h4, .tags-banner {
     width: 400px;
   }
@@ -43,6 +49,9 @@
   }
   img {
     width: 175px;
+  }
+  .contact-bg {
+    width: 100%;
   }
   .black-background-h4, .tags-banner {
     width: 175px;
@@ -62,6 +71,14 @@
   .black-background-h4, .tags-banner {
     width: 225px;
   }
+  .contact-bg {
+    width: 100%;
+  }
+  .contact {
+    width: 500px;
+    margin-left: 3em;
+    margin-right: 3em;
+  }
 }
 
 
@@ -71,6 +88,9 @@
   }
   .black-background-h4, .tags-banner {
     width: 300px;
+  }
+  .contact-bg {
+    width: 100%;
   }
   .white-h4, .tags, .tags-title{
     font-size: 1.5em;
@@ -104,6 +124,14 @@ body {
   background: slateblue;
 }
 
+/* Contact header */
+
+.contact-bg {
+  width: 100%;
+  height: auto;
+  content: url('../images/contact-card.png');
+}
+
 /* Header section */
 
 .nav-square {
@@ -114,27 +142,30 @@ body {
   padding-left: 0.25em;
 }
 
-.nav-square:hover > #nav-bar-bg {
-  margin-left: -3.25em;
-  transition: 1s;
+.nav-square:hover {
+  cursor: pointer;
 }
 
 #nav-bar-bg {
-  padding-top: 1em;
-  margin-left: -11em;
-  transition: 1s;
+  position: fixed;
+  padding-top: 4em;
+  margin-left: -9em;
+  transition: 2s;
+}
+
+#nav-bar-bg:hover {
+  margin-left: -3.25em;
+  transition: 2s;
 }
 
 .black-nav {
   background-color: black;
-  max-width: 7.5em;
+  max-width: 7em;
   margin-bottom: 0.5em;
   text-align: left;
-  padding-left: 0.35em;
+  padding-left: 1em;
   padding-bottom: 0.15em;
 }
-
-
 
 .nav-bar li, .nav-bar a {
   padding-top: 0.05em;
