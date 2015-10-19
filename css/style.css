@@ -11,6 +11,9 @@
   .black-background-h4, .tags-banner {
     width: 300px;
   }
+  .tags, .tags-title {
+    font-size: 1.25em;
+  }
   .about-me-para {
     margin-left: 0.25em;
   }
