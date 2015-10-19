@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/style.css">
 
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  
+
   <script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
@@ -65,7 +65,29 @@
   <section class="contact_wrap">
     <div class="contact-bg"><img src="images/contact-card.png"></div>
     <div class="content_text">
-      <p>Sample Text</p>
+      <!-- Footer section -->
+      <section class="footer wow fadeInUp" id="four">
+        <div class="connect-title">
+          <h5 class="connect">Connect with me through:</h5>
+        </div>
+        <a target="_blank" id="connect-git" href="https://github.com/bonnichiwa"><img src="images/gitwhite.png" id="git-connect-img" width="30"></a>
+
+        <a target="_blank" id="connect-linked" href="https://ca.linkedin.com/in/bonniepham"><img src="images/linked-in.png" id="linked-connect-img" width="30"></a>
+
+        <a target="_blank" id="connect-behance" href="https://behance.net/bonniepham"><img src="images/behance-logo.png" id="behance-connect-img" width="30"></a>
+
+        <div class="form_title">
+        <h5 class="connect form-heading"> Leave a Message! </h5>
+        </div>
+
+        <form class="form" action="//formspree.io/bonnie.pham@ryerson.ca"
+          method="POST">
+          <div class="entry_title">Name:</div><input type="text" placeholder="Name" name="name"><br>
+          <div class="entry_title">E-mail:</div><input type="email" placeholder="E-mail" name="_replyto"><br>
+          <div class="entry_title">Message:</div><textarea rows="5" placeholder="Message" name="message"></textarea><br>
+          <input id="submit-button" type="submit" value="Send">
+        </form>
+      </section>
 
     </div><!-- . content_text - -->
   </section><!-- . contact_wrap -->
@@ -275,29 +297,7 @@
     </div>
   </section>
 
-  <!-- Footer section -->
-  <section class="footer wow fadeInUp" id="four">
-    <div class="connect-div">
-      <h5 class="connect">Connect with me through:</h5>
-    </div>
-    <a target="_blank" id="connect-git" href="https://github.com/bonnichiwa"><img src="images/gitwhite.png" id="git-connect-img" width="30"></a>
-
-    <a target="_blank" id="connect-linked" href="https://ca.linkedin.com/in/bonniepham"><img src="images/linked-in.png" id="linked-connect-img" width="30"></a>
-
-    <a target="_blank" id="connect-behance" href="https://behance.net/bonniepham"><img src="images/behance-logo.png" id="behance-connect-img" width="30"></a>
-
-    <div id="black">
-    <h5 class="connect form-heading"> Leave a Message! </h5>
-    </div>
-
-    <form class="form" action="//formspree.io/bonnie.pham@ryerson.ca"
-      method="POST">
-      <input type="text" placeholder="Name" name="name"><br>
-      <input type="email" placeholder="E-mail" name="_replyto"><br>
-      <textarea rows="5" placeholder="Message" name="message"></textarea><br>
-      <input id="submit-button" type="submit" value="Send">
-    </form>
-  </section>
+  
 
 </body>
 </html>

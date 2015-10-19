@@ -84,6 +84,10 @@
   .white-h4, .tags, .tags-title{
     font-size: 1.5em;
   }
+  .content_text {
+    margin-left: 10em;
+    margin-top: 5em;
+  }
 }
 
 body {
@@ -128,7 +132,7 @@ body {
 
 /* Contact header */
 
-.contact_wrap { position: relative; }
+.contact_wrap { position: relative; padding-bottom: 5em;}
 
 .content_text { position: absolute; left: 0; top: 75px;  right: 0;  }
 
@@ -451,19 +455,23 @@ hr {
 /* Footer */
 
 .footer {
-  background-color: slateblue;
-  height: 45em;
+  margin-top: -8em;
+  text-align: left;
+  margin-left: 2em;
 }
 
-.connect-div {
+.connect-title {
   background-color: black;
-  padding-bottom: -15em;
+  max-width: 23em;
+  height: 3em;
 }
 
 .connect {
-  color: slateblue;
+  color: white;
   font-weight: 600;
-  margin-bottom: -0.5em;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
 }
 
 #connect-git, #connect-behance, #connect-linked {
@@ -471,37 +479,52 @@ hr {
 }
 
 #git-connect-img, #behance-connect-img, #linked-connect-img {
-  margin-top: 5em;
-  margin-bottom: 3em;
-  margin-right: 1em;
-}
-
-#black {
-  background-color: black;
-  max-width: 16.5em;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 3em;
   margin-bottom: 2em;
-  height: 2em;
+  margin-right: 2em;
 }
 
 .form input, .form textarea {
   border: 2px solid lightgray;
   margin-bottom: 0.5em;
-  padding: 0.5em;
+  padding: 0.25em;
   width: 14em;
   font-size: 1.5em;
   letter-spacing: 0.2em;
   font-weight: 700;
 }
 
+.form {
+  font-size: 1.5em;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.2em;
+}
+
 .form-heading {
   font-size: 1.55em;
+  color: white;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+
+}
+
+.form_title {
+  background-color: black;
+  max-width: 16em;
+  height: 3em;
+  margin-bottom: 1em;
+}
+
+.entry_title {
+  background-color: black;
+  width: 5em;
+  padding-left: 0.5em;
 }
 
 #submit-button {
   border: none;
-  color: slateblue;
+  color: white;
   width: 5em;
   background-color: black;
 }
