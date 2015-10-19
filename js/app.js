@@ -1,3 +1,14 @@
+angular.module('portfolioApp', [])
+
+.directive('portThumbnail', function() {
+  return {
+    restrict: 'E',
+    transclude: true,
+    template: '<h1>' + 'Hello Bitches' + '</h1>',
+    replace: true
+  }
+});
+
 $(document).ready(function() {
 
   $('a[href*=#]:not([href=#])').click(function() {
@@ -75,7 +86,7 @@ $(document).ready(function() {
   function changeColor(element, curNumber){
     curNumber++;
 
-    if(curNumber > 4){
+    if(curNumber > 5){
         curNumber = 1;
     }
     element.addClass('color' + curNumber, 500);

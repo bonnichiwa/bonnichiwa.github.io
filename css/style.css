@@ -1,3 +1,21 @@
+@media screen and (min-width: 400px) {
+  #ruby, #html, #js, #css, #jquery, #angular, #github {
+    width: 60px;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  #ruby, #html, #js, #css, #jquery, #angular, #github {
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 940px) {
+  #ruby, #html, #js, #css, #jquery, #angular, #github {
+    width: 130px;
+  }
+}
+
 img {
   max-width: 100%;
 }
@@ -10,19 +28,23 @@ body {
 /* Changing colours circle */
 
 .color1{
-    background: yellow;
+  background: yellow;
 }
 
 .color2{
-    background: turquoise;
+  background: turquoise;
 }
 
 .color3{
-    background: coral;
+  content: url(../images/icon-img.png);
 }
 
 .color4{
-    background: slateblue;
+  background: coral;
+}
+
+.color5{
+  background: slateblue;
 }
 
 /* Header section */
