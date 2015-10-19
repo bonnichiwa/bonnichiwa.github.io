@@ -5,16 +5,6 @@
   #git-connect-img, #linked-connect-img, #behance-connect-img {
     width: 30px;
   }
-  img {
-    width: 300px;
-  }
-
-  .black-background-h4, .tags-banner {
-    width: 300px;
-  }
-  .tags, .tags-title {
-    font-size: 1.25em;
-  }
   .about-me-para {
     margin-left: 0.25em;
   }
@@ -27,13 +17,6 @@
   #git-connect-img, #linked-connect-img, #behance-connect-img {
     width: 40px;
   }
-  img {
-    width: 400px;
-  }
-
-  .black-background-h4, .tags-banner {
-    width: 400px;
-  }
 }
 
 @media screen and (min-width: 768px) {
@@ -43,47 +26,19 @@
   #git-connect-img, #linked-connect-img, #behance-connect-img {
     width: 50px;
   }
-  img {
-    width: 175px;
-  }
-
-  .black-background-h4, .tags-banner {
-    width: 175px;
-  }
-  .white-h4, .tags, .tags-title{
-    font-size: 1em;
-  }
   .about-me-para {
     margin-left: 5em;
   }
 }
 
 @media screen and (min-width: 850px) {
-  img {
-    width: 225px;
-  }
-  .black-background-h4, .tags-banner {
-    width: 225px;
-  }
-
   .contact {
     margin-left: 3em;
     margin-right: 3em;
   }
 }
 
-
 @media screen and (min-width: 1065px) {
-  img {
-    width: 300px;
-  }
-  .black-background-h4, .tags-banner {
-    width: 300px;
-  }
-
-  .white-h4, .tags, .tags-title{
-    font-size: 1.5em;
-  }
   .content_text {
     margin-left: 10em;
     margin-top: 5em;
@@ -387,24 +342,24 @@ h5 {
 
 .black-background-h4 {
   background-color: black;
-  max-width: 500px;
+  max-width: 350px;
   margin-left: auto;
   margin-right: auto;
   height: 2.5em;
 }
 
+.port_thumb {
+  display: inline-block;
+  width: 350px;
+  height: 400px;
+  margin: 1em;
+}
+
 .port-bg {
   padding: 2em;
+  padding-bottom: 5em;
   margin: 3em 2em;
   background-color: coral;
-}
-
-.col-sm-6 {
-  opacity: 0.85;
-}
-
-.col-sm-6:hover {
-  opacity: 1;
 }
 
 .port-img {
@@ -417,20 +372,22 @@ h5 {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1em;
+  font-size: 1.15em;
 }
 
 .tags-banner {
   background-color: black;
-  max-width: 500px;
+  max-width: 350px;
   letter-spacing: .05em;
   margin-left: auto;
   margin-right: auto;
 }
 
 .tags {
+  font-size: 1.25em;
   font-weight: 700;
   color: coral;
-  padding-top: 1em;
+  padding-top: 0.5em;
   letter-spacing: 0.15em;
 }
 
