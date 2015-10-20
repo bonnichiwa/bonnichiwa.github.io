@@ -2,13 +2,15 @@ var app = angular.module('portfolioApp', []);
 
 app.directive('portThumbnail', function() {
   return {
-    restrict: 'E',
-    transclude: true,
+    scope: {title : '=portTitle',
+    link : '=portLink',
+    image : '=portImg',
+    tags : '=portTags'},
     templateUrl: 'port-thumbnail.html',
-    replace: true
-  }
+    transclude: true,
+    controller: function() { },
+  };
 });
-
 
 new WOW().init();
 
