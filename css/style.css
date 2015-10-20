@@ -3,10 +3,26 @@
     width: 80px;
   }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
-    width: 30px;
+    padding-top: 3em;
+    width: 50px;
   }
   .about-me-para {
     margin-left: 0.25em;
+  }
+  .footer {
+    padding-top: 5em;
+  }
+  .form {
+    display: none;
+  }
+  .form_title {
+    display: none;
+  }
+  .connect {
+    font-size: 1.5em;
+  }
+  .connect-title {
+    width: 22.5em;
   }
 }
 
@@ -15,7 +31,29 @@
     width: 100px;
   }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
+    padding-top: 0.5em;
     width: 40px;
+  }
+  .footer {
+    padding-top: 3em;
+    padding-left: 3em;
+  }
+   {
+    font-size: 0.25em;
+  }
+  .form {
+    margin-top: -1em;
+    display: block;
+    font-size: 0.65em;
+  }
+  .form-heading{
+    width: 0.5em;
+  }
+  .connect {
+    font-size: 1.25em;
+  }
+  .connect-title {
+    width: 20em;
   }
 }
 
@@ -26,8 +64,15 @@
   #git-connect-img, #linked-connect-img, #behance-connect-img {
     width: 50px;
   }
+  .footer {
+    padding-left: 5em;
+    padding-top: 4.5em;
+  }
   .about-me-para {
     margin-left: 5em;
+  }
+  .form {
+    font-size: 0.85em;
   }
 }
 
@@ -36,12 +81,45 @@
     margin-left: 3em;
     margin-right: 3em;
   }
+  .footer {
+    padding-left: 7em;
+    padding-top: 5.5em;
+  }
+  .form {
+    font-size: 1em;
+  }
+  .connect {
+    font-size: 1.5em;
+  }
+  .connect-title {
+    width: 23em;
+  }
+
 }
 
 @media screen and (min-width: 1065px) {
   .content_text {
     margin-left: 10em;
     margin-top: 5em;
+  }
+  .connect-title {
+    margin-bottom: 2em;
+  }
+  .form_title {
+    font-size: 1.5em;
+  }
+  .footer {
+    padding-top: 2em;
+  }
+  .form {
+    padding-top: 1em;
+    font-size: 1.1em;
+  }
+  .connect {
+    font-size: 1.75em;
+  }
+  .connect-title {
+    width: 28em;
   }
 }
 
@@ -71,19 +149,6 @@ body {
 .color5{
   background: slateblue;
 }
-
-.nav_wrap {  }
-.nav_data {  }
-.nav_title {  }
-.nav_item {  }
-.nav_link {  }
-
-.banner_wrap {  }
-.banner_data {  }
-.banner_title {  }
-.banner_image {  }
-
-
 
 /* Contact header */
 
@@ -355,6 +420,10 @@ h5 {
   margin: 1em;
 }
 
+.port_thumb:hover {
+  cursor: pointer;
+}
+
 .port-bg {
   padding: 2em;
   padding-bottom: 5em;
@@ -419,14 +488,11 @@ hr {
 
 .connect-title {
   background-color: black;
-  max-width: 23em;
-  height: 3em;
 }
 
 .connect {
   color: white;
   font-weight: 600;
-  font-size: 1.5em;
   padding-top: 0.5em;
   padding-left: 0.5em;
 }
@@ -436,7 +502,6 @@ hr {
 }
 
 #git-connect-img, #behance-connect-img, #linked-connect-img {
-  margin-top: 3em;
   margin-bottom: 2em;
   margin-right: 2em;
 }
@@ -452,7 +517,6 @@ hr {
 }
 
 .form {
-  font-size: 1.5em;
   font-weight: 700;
   color: white;
   letter-spacing: 0.2em;
