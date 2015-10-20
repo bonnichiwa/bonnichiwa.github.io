@@ -94,6 +94,9 @@
   .connect-title {
     width: 23em;
   }
+  #git-connect-img, #linked-connect-img, #behance-connect-img {
+    width: 65px;
+  }
 
 }
 
@@ -422,10 +425,12 @@ h5 {
   width: 350px;
   height: 400px;
   margin: 2em;
+  opacity: 0.85;
 }
 
 .port_thumb:hover {
   cursor: pointer;
+  opacity: 1;
 }
 
 .port-bg {
@@ -558,4 +563,16 @@ hr {
   cursor: pointer;
 }
 
+.copyright-bg {
+  background-color: black;
+  max-width: 18em;
+  margin-right: auto;
+  margin-left: auto;
+}
 
+.copyright {
+  color: white;
+  letter-spacing: 0.5em;
+  font-size: 1.05em;
+  padding-bottom: -5em;
+}
