@@ -183,6 +183,10 @@ body {
   transition: 2s;
 }
 
+.nav-square:hover {
+  cursor: pointer;
+}
+
 .nav-square:hover > #nav-bar-bg  {
   cursor: pointer;
   margin-left: -4em;
