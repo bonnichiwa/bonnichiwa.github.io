@@ -204,14 +204,14 @@ body {
 
 .nav-bar li, .nav-bar a {
   padding-top: 0.05em;
+  padding-left: 0.25em;
   list-style-type: none;
   display: inline-block;
   padding-right: 1em;
-  font-size: 1.2em;
+  font-size: 0.95em;
   letter-spacing: .35em;
   color: white;
   font-weight: 400;
-  font-size: 1.05em;
 }
 
 .masthead {
@@ -522,7 +522,7 @@ hr {
 
 .form {
   font-weight: 700;
-  color: white;
+  color: darkgray;
   letter-spacing: 0.2em;
 }
 
