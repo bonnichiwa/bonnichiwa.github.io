@@ -19,7 +19,6 @@ $(document).ready(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
       || location.hostname == this.hostname) {
-
       var target = $(this.hash);
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
        if (target.length) {
@@ -33,7 +32,6 @@ $(document).ready(function() {
 
   function changeColor(element, curNumber){
     curNumber++;
-
     if(curNumber > 5){
         curNumber = 1;
     }
@@ -42,7 +40,5 @@ $(document).ready(function() {
     element.attr('class', 'color' + curNumber);
     setTimeout(function(){changeColor(element, curNumber)}, 1000);  
   }
-
   changeColor($('#circle'), 0);
-
 });

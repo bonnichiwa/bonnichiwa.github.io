@@ -95,7 +95,8 @@
     width: 23em;
   }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
-    width: 65px;
+    width: 60px;
+
   }
 
 }
@@ -422,10 +423,12 @@ h5 {
 
 .port_thumb {
   display: inline-block;
+  vertical-align: top;
   width: 350px;
   height: 400px;
   margin: 2em;
   opacity: 0.85;
+  margin-bottom: 50px;
 }
 
 .port_thumb:hover {
@@ -459,6 +462,7 @@ h5 {
   letter-spacing: .05em;
   margin-left: auto;
   margin-right: auto;
+  height: 200px;
 }
 
 .tags {
@@ -489,6 +493,9 @@ hr {
 
 /* Footer */
 
+
+.contact_wrap { }
+
 .footer {
   margin-top: -8em;
   text-align: left;
@@ -506,29 +513,36 @@ hr {
   padding-left: 0.5em;
 }
 
+.icon_wrap {
+  text-align: center;
+  width: 25.5em;
+}
+
+.icon_wrap a { 
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
 #connect-git, #connect-behance, #connect-linked {
   display: inline-block;
 }
 
-#git-connect-img, #behance-connect-img, #linked-connect-img {
-  margin-bottom: 2em;
-  margin-right: 2em;
+.form {
+  width: 25.5em;
+  font-weight: 700;
+  color: darkgray;
+  letter-spacing: 0.2em;
 }
 
 .form input, .form textarea {
   border: 2px solid lightgray;
   margin-bottom: 0.5em;
   padding: 0.25em;
-  width: 14em;
+  width: 100%;
   font-size: 1.5em;
   letter-spacing: 0.2em;
   font-weight: 700;
-}
-
-.form {
-  font-weight: 700;
-  color: darkgray;
-  letter-spacing: 0.2em;
 }
 
 .form-heading {
@@ -536,7 +550,6 @@ hr {
   color: white;
   padding-top: 0.5em;
   padding-left: 0.5em;
-
 }
 
 .form_title {
@@ -557,6 +570,7 @@ hr {
   color: white;
   width: 5em;
   background-color: black;
+  float: right;
 }
 
 #submit-button:hover {
