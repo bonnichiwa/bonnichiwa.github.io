@@ -2,9 +2,12 @@
   #ruby, #html, #js, #css, #jquery, #angular, #github {
     width: 80px;
   }
+  .icon_wrap {
+    margin-left: 1em;
+  }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
     padding-top: 3em;
-    width: 50px;
+    width: 40px;
   }
   .about-me-para {
     margin-left: 0.25em;
@@ -30,16 +33,17 @@
   #ruby, #html, #js, #css, #jquery, #angular, #github  {
     width: 100px;
   }
+  .icon_wrap {
+    margin-left: -0.5em;
+    padding: 0;
+  }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
     padding-top: 0.5em;
     width: 40px;
   }
   .footer {
-    padding-top: 3em;
+    padding-top: 4em;
     padding-left: 3em;
-  }
-   {
-    font-size: 0.25em;
   }
   .form {
     margin-top: -1em;
@@ -50,16 +54,20 @@
     width: 0.5em;
   }
   .connect {
-    font-size: 1.25em;
+    font-size: 1.05em;
   }
   .connect-title {
-    width: 20em;
+    width: 16.5em;
   }
 }
 
 @media screen and (min-width: 768px) {
   #ruby, #html, #js, #css, #jquery, #angular, #github  {
     width: 130px;
+  }
+  .icon_wrap {
+    margin-left: 1em;
+    padding-bottom: 1em;
   }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
     width: 50px;
@@ -68,11 +76,17 @@
     padding-left: 5em;
     padding-top: 4.5em;
   }
+  .connect-title {
+    width: 21.5em;
+  }
   .about-me-para {
     margin-left: 5em;
   }
   .form {
     font-size: 0.85em;
+  }
+  .connect {
+    font-size: 1.35em;
   }
 }
 
@@ -89,14 +103,17 @@
     font-size: 1em;
   }
   .connect {
-    font-size: 1.5em;
+    font-size: 1.65em;
   }
   .connect-title {
-    width: 23em;
+    width: 25.5em;
+  }
+  .icon_wrap {
+    margin-left: 2em;
+    padding-bottom: 1em;
   }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
-    width: 60px;
-
+    width: 55px;
   }
 
 }
@@ -107,7 +124,12 @@
     margin-top: 5em;
   }
   .connect-title {
+    width: 28em;
     margin-bottom: 2em;
+  }
+  .icon_wrap {
+    margin-left: 4em;
+    padding-bottom: 1em;
   }
   .form_title {
     font-size: 1.5em;
@@ -121,9 +143,6 @@
   }
   .connect {
     font-size: 1.75em;
-  }
-  .connect-title {
-    width: 28em;
   }
 }
 
@@ -174,7 +193,7 @@ body {
 }
 
 .nav-square {
-  width: 80px;
+  width: 90px;
   height: 40px;
   background-color: black;
   padding-left: 0.25em;
@@ -184,7 +203,8 @@ body {
 #nav-bar-bg {
   padding-top: 1em;
   margin-left: -11em;
-  transition: 2s;
+  transition: 1s;
+  width:;
 }
 
 .nav-square:hover {
@@ -194,25 +214,24 @@ body {
 .nav-square:hover > #nav-bar-bg  {
   cursor: pointer;
   margin-left: -4em;
-  transition: 2s;
+  transition: 1s;
 }
 
 .black-nav {
   background-color: black;
   max-width: 7em;
-  margin-bottom: 0.5em;
-  text-align: left;
-  padding-left: 1em;
+  margin-top: 0.7em;
+  margin-bottom: 0.7em;
+  text-align: right;
   padding-bottom: 0.15em;
 }
 
 .nav-bar li, .nav-bar a {
   padding-top: 0.05em;
-  padding-left: 0.25em;
   list-style-type: none;
   display: inline-block;
-  padding-right: 1em;
-  font-size: 0.95em;
+  padding-right: 0.25em;
+  font-size: 1.1em;
   letter-spacing: .35em;
   color: white;
   font-weight: 400;
@@ -294,11 +313,11 @@ h5 {
 
 .small-yellow {
   background-color: black;
-  max-width: 25em;
+  max-width: 20em;
   margin-left: 3em;
   margin-top: -25em;
   margin-right: 3em;
-  padding-bottom: 0.5em;
+  padding-bottom: 1em;
 }
 
 .big-yellow {
@@ -339,8 +358,8 @@ h5 {
 
 .small-green {
   background-color: black;
-  max-width: 25em;
-  padding-bottom: .5em;
+  max-width: 20em;
+  padding-bottom: 1em;
 }
 
 .green-h5 {
@@ -398,7 +417,7 @@ h5 {
   margin-left: auto;
   margin-right: auto;
   background-color: black;
-  max-width: 50em;
+  max-width: 40em;
   margin-bottom: -3em;
 }
 
@@ -493,9 +512,6 @@ hr {
 
 /* Footer */
 
-
-.contact_wrap { }
-
 .footer {
   margin-top: -8em;
   text-align: left;
@@ -509,13 +525,13 @@ hr {
 .connect {
   color: white;
   font-weight: 600;
-  padding-top: 0.5em;
   padding-left: 0.5em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
 }
 
 .icon_wrap {
-  text-align: center;
-  width: 25.5em;
+  width: 30em;
 }
 
 .icon_wrap a { 
