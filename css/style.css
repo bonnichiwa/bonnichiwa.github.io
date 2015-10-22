@@ -10,7 +10,7 @@
     width: 40px;
   }
   .about-me-para {
-    margin-left: 0.25em;
+    text-align: center;
   }
   .footer {
     padding-top: 5em;
@@ -58,6 +58,9 @@
   }
   .connect-title {
     width: 16.5em;
+  }
+  .about-me-para {
+    margin-left: 5em;
   }
 }
 
@@ -115,6 +118,9 @@
   #git-connect-img, #linked-connect-img, #behance-connect-img {
     width: 55px;
   }
+  .about-me-para {
+    margin-left: 5em;
+  }
 
 }
 
@@ -143,6 +149,9 @@
   }
   .connect {
     font-size: 1.75em;
+  }
+  .about-me-para {
+    margin-left: 7em;
   }
 }
 
@@ -336,7 +345,8 @@ h5 {
 }
 
 .about-me {
-  text-align: left;
+  text-align: justify;
+  margin-right: 1.5em;
   font-size: 1.35em;
   letter-spacing: .1em;
   font-weight: 600;
@@ -473,6 +483,7 @@ h5 {
   margin-right: auto;
   padding-bottom: 1em;
   font-size: 1.15em;
+  text-align: justify;
 }
 
 .tags-banner {
