@@ -7,10 +7,7 @@
   }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
     padding-top: 3em;
-    width: 40px;
-  }
-  .about-me-para {
-    text-align: center;
+    width: 35px;
   }
   .footer {
     padding-top: 5em;
@@ -27,6 +24,27 @@
   .connect-title {
     width: 22.5em;
   }
+  .title-name {
+    font-size: 3em;
+  }
+  .black-background {
+    height: 4em;
+  }
+  .port_thumb {
+    width: 250px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .port_thumb img {
+    width: 230px;
+  }
+  .port_thumb p {
+    padding: 10px;
+  }
+  .tags-banner {
+    max-height: 450px;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -39,7 +57,7 @@
   }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
     padding-top: 0.5em;
-    width: 40px;
+    width: 35px;
   }
   .footer {
     padding-top: 4em;
@@ -59,8 +77,23 @@
   .connect-title {
     width: 16.5em;
   }
-  .about-me-para {
-    margin-left: 5em;
+  .title-name {
+    font-size: 4em;
+  }
+  .black-background {
+    height: 2.5em;
+  }
+  .port_thumb {
+    width: 300px;
+    display: block;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .port_thumb img {
+    width: 280px;
+  }
+  .port_thumb p {
+    padding: 10px;
   }
 }
 
@@ -73,7 +106,7 @@
     padding-bottom: 1em;
   }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
-    width: 50px;
+    width: 35px;
   }
   .footer {
     padding-left: 5em;
@@ -82,14 +115,26 @@
   .connect-title {
     width: 21.5em;
   }
-  .about-me-para {
-    margin-left: 5em;
-  }
   .form {
     font-size: 0.85em;
   }
   .connect {
     font-size: 1.35em;
+  }
+  .port_thumb {
+    width: 400px;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 100px;
+  }
+  .port_thumb img {
+    width: 350px;
+  }
+  .port_thumb p {
+    padding: 5px;
+  }
+  .tags-banner {
+    height: 320px;
   }
 }
 
@@ -103,25 +148,24 @@
     padding-top: 5.5em;
   }
   .form {
-    font-size: 1em;
+    font-size: 0.5em;
   }
   .connect {
     font-size: 1.65em;
   }
   .connect-title {
-    width: 25.5em;
+    width: 23em;
   }
   .icon_wrap {
     margin-left: 2em;
     padding-bottom: 1em;
   }
   #git-connect-img, #linked-connect-img, #behance-connect-img {
-    width: 55px;
+    width: 35px;
   }
-  .about-me-para {
-    margin-left: 5em;
+  .title-name {
+    font-size: 4em;
   }
-
 }
 
 @media screen and (min-width: 1065px) {
@@ -130,11 +174,10 @@
     margin-top: 5em;
   }
   .connect-title {
-    width: 28em;
+    width: 23em;
     margin-bottom: 2em;
   }
   .icon_wrap {
-    margin-left: 4em;
     padding-bottom: 1em;
   }
   .form_title {
@@ -145,19 +188,18 @@
   }
   .form {
     padding-top: 1em;
-    font-size: 1.1em;
+    font-size: 0.75em;
   }
   .connect {
     font-size: 1.75em;
-  }
-  .about-me-para {
-    margin-left: 7em;
   }
 }
 
 body {
   text-align: center;
-  font-family: 'Wire One';
+  border: 10px solid black;
+  background: #ececec;
+  margin: 10px;
 }
 
 /* Changing colours circle */
@@ -211,9 +253,8 @@ body {
 
 #nav-bar-bg {
   padding-top: 1em;
-  margin-left: -11em;
+  margin-left: -25em;
   transition: 1s;
-  width:;
 }
 
 .nav-square:hover {
@@ -222,13 +263,13 @@ body {
 
 .nav-square:hover > #nav-bar-bg  {
   cursor: pointer;
-  margin-left: -4em;
+  margin-left: -3.5em;
   transition: 1s;
 }
 
 .black-nav {
   background-color: black;
-  max-width: 7em;
+  max-width: 10em;
   margin-top: 0.7em;
   margin-bottom: 0.7em;
   text-align: right;
@@ -240,8 +281,6 @@ body {
   list-style-type: none;
   display: inline-block;
   padding-right: 0.25em;
-  font-size: 1.1em;
-  letter-spacing: .35em;
   color: white;
   font-weight: 400;
 }
@@ -250,43 +289,66 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   height: 25em;
-  padding-top: 8em;
-  padding-bottom: 60em;
+  padding-top: 12em;
+  padding-bottom: 40em;
 }
 
 h1 {
-  font-size: 13em;
+  font-size: 5em;
   font-weight: 400;
   margin-top: -.05em;
   margin-bottom: .3em;
 }
 
+.title-name {
+  font-family: 'Poor Story';
+  letter-spacing: 15px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
 #circle {
-  width: .75em;
-  height: .75em;
+  width: .5em;
+  height: .5em;
   border-radius: 50%;
   display: inline-block;
+  margin: 0 5px 0 -10px;
 }
 
 #circle:hover {
   cursor: pointer;
 }
 
-h2 {
+h2, a {
   font-weight: 400;
-  font-size: 2em;
-  letter-spacing: .35em;
+  font-size: 1.1em;
   color: white;
   text-align: center;
-  padding-top: 0.2em;
+  padding-top: 0.5em;
+  font-family: 'Cutive Mono';
+}
+
+.name-container {
+  border: 1px dashed black;
+  max-width: 500px;
+  max-height: 500px;
+  margin: 0 auto;
+}
+
+.black-background-tall {
+  height:50px;
+  margin: 0 auto;
+  max-width: 500px;
+  background-color: black;
+  text-align: center;
 }
 
 .black-background {
   background-color: black;
-  max-width: 30em;
-  height: 3em;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -20px;
 }
 
 h3 {
@@ -299,45 +361,44 @@ h3 {
 h4 {
   font-size: 1.5em;
   font-weight: 300;
+  margin-bottom: 3em;
+  margin-top: 5em;
 }
 
 .white-h4 {
-  padding-top: 0.4em;
-  color: coral;
-  letter-spacing: 0.35em;
-  font-weight: 600;
+  color: white;
 }
 
 h5 {
-  font-weight: 400;
-  font-size: 2em;
-  letter-spacing: .35em;
+  font-size: 1.25em;
+  font-family: 'Cutive Mono';
 }
 
 /* About me section */
 
 .intro {
   padding-top: 25em;
+  margin-bottom: 20em;
 }
 
 .small-yellow {
   background-color: black;
-  max-width: 20em;
-  margin-left: 3em;
+  max-width: 500px;
+  margin-left: auto;
   margin-top: -25em;
-  margin-right: 3em;
-  padding-bottom: 1em;
+  margin-right: auto;
+  padding-bottom: 2px;
 }
 
 .big-yellow {
-  background-color: yellow;
-  margin-left: 3em;
-  margin-right: 3em;
-  padding: 2em;
+  border: 1px dashed black;
+  margin: 0 auto;
+  padding: 4em 3em;
+  max-width: 500px;
 }
 
 .yellow-h5 {
-  color: yellow;
+  color: white;
   padding-top: .25em;
   font-size: 3em;
   margin-bottom: -0.1em;
@@ -346,10 +407,7 @@ h5 {
 
 .about-me {
   text-align: justify;
-  margin-right: 1.5em;
-  font-size: 1.35em;
-  letter-spacing: .1em;
-  font-weight: 600;
+  font-size: 1em;
 }
 
 /* Skillset */
@@ -427,8 +485,8 @@ h5 {
   margin-left: auto;
   margin-right: auto;
   background-color: black;
-  max-width: 40em;
-  margin-bottom: -3em;
+  max-width: 1000px;
+  padding-bottom: .25em;
 }
 
 .pink-h5 {
@@ -453,8 +511,6 @@ h5 {
 .port_thumb {
   display: inline-block;
   vertical-align: top;
-  width: 350px;
-  height: 400px;
   margin: 2em;
   opacity: 0.85;
   margin-bottom: 50px;
@@ -468,8 +524,9 @@ h5 {
 .port-bg {
   padding: 2em;
   padding-bottom: 5em;
-  margin: 3em 2em;
-  background-color: coral;
+  margin: 0 auto;
+  max-width: 1000px;
+  border: 1px dashed black;
 }
 
 .port-img {
@@ -477,35 +534,35 @@ h5 {
 }
 
 .tags-title {
-  color: coral;
-  max-width: 20em;
+  color:white; 
+  max-width: 22em;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 1em;
-  font-size: 1.15em;
   text-align: justify;
 }
 
 .tags-banner {
   background-color: black;
   max-width: 350px;
-  letter-spacing: .05em;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
 }
 
 .tags {
-  font-size: 1.25em;
-  font-weight: 700;
-  color: coral;
-  padding-top: 0.5em;
-  letter-spacing: 0.15em;
+  font-size: 1em;
+  color: white;
+  padding: 0.5em;
+  height: 25px;
 }
 
 a {
   text-decoration: none;
   color: black;
+}
+
+p {
+  font-family: 'Cutive Mono';
 }
 
 .bubble-title {
@@ -515,10 +572,9 @@ a {
 
 
 hr {
-  border: 0;
+  border-top: 1px dashed white;
   height: 1px;
   padding-top: 0.5em;
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), coral, rgba(0, 0, 0, 0));
 }
 
 /* Footer */
@@ -541,10 +597,6 @@ hr {
   padding-bottom: 0.2em;
 }
 
-.icon_wrap {
-  width: 30em;
-}
-
 .icon_wrap a { 
   margin-left: 20px;
   margin-right: 20px;
@@ -556,9 +608,8 @@ hr {
 }
 
 .form {
-  width: 25.5em;
-  font-weight: 700;
-  color: darkgray;
+  width: 30em;
+  color: white;
   letter-spacing: 0.2em;
 }
 
@@ -570,6 +621,7 @@ hr {
   font-size: 1.5em;
   letter-spacing: 0.2em;
   font-weight: 700;
+  font-family: 'Cutive Mono';
 }
 
 .form-heading {
@@ -588,7 +640,7 @@ hr {
 
 .entry_title {
   background-color: black;
-  width: 5em;
+  width: 7em;
   padding-left: 0.5em;
 }
 
@@ -613,7 +665,7 @@ hr {
 
 .copyright {
   color: white;
-  letter-spacing: 0.5em;
   font-size: 1.05em;
   padding-bottom: -5em;
+  padding-top: 0;
 }
